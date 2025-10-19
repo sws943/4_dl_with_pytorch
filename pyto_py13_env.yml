@@ -1,0 +1,32 @@
+# to update: conda env update --file pyto_py13_env.yml --prune
+name: pyto
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - python=3.13
+ - pandas
+ - jupyterlab
+ - numpy
+ - matplotlib
+ - nbdime
+ - seaborn
+ - keyring
+# code tools
+ - mypy
+ - mypy_extensions
+ - black
+ - nbqa
+ - pandas-stubs
+ - pytest
+ # - scikit-learn-stubs
+ # ml
+ - pytorch
+ - torchvision
+ - scipy
+ - scikit-learn
+#
+# - pip
+# - pip:
+#   - ucimlrepo
+
